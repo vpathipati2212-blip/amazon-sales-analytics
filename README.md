@@ -1,47 +1,65 @@
 # Amazon Sales Analytics Dashboard
 
-## Overview
+## Project Overview
 
 This project analyzes Amazon sales data using Python and Pandas.
 
-## Technologies
+The objective is to clean sales data, analyze business performance, generate reports, and create visualizations.
+
+## Technologies Used
 
 * Python
 * Pandas
 * NumPy
 * Matplotlib
 * OpenPyXL
+* Git
+* GitHub
 
-## Features
+## Dataset Information
 
-* Data Cleaning
-* Revenue Analysis
+* Dataset: Amazon Sale Report
+* Records: 128,975+
+* Analysis Type: Sales Analytics
+* Industry: E-Commerce
+
+## Business Questions Answered
+
+* Which categories generate the highest revenue?
+* Which states contribute the most sales?
+* What is the order status distribution?
+* How can business performance be monitored?
+
+## Visualizations
+
+### Sales by Category
+
+![Sales by Category](images/sales_by_category.png)
+
+### Sales by State
+
+![Sales by State](images/sales_by_state.png)
+
+## Project Outputs
+
+* Excel Sales Report
 * Category Analysis
 * State Analysis
 * Order Status Analysis
-* Excel Report Generation
-* Data Visualization
-
-## Generated Files
-
-* amazon_sales_report.xlsx
-* sales_by_category.png
-* sales_by_state.png
-
-## How to Run
-
-1. Install dependencies:
-
-pip install -r requirements.txt
-
-2. Run:
-
-python sales_analysis.py
+* Data Visualizations
 
 ## Skills Demonstrated
 
-* Data Analysis
 * Data Cleaning
 * Exploratory Data Analysis (EDA)
-* Reporting Automation
 * Data Visualization
+* Business Reporting
+* Python Automation
+
+## Future Improvements
+
+* Monthly Sales Trend Analysis
+* Customer Segmentation
+* SQL Integration
+* Power BI Dashboard
+* Sales Forecasting
