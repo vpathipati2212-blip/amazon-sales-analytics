@@ -4,7 +4,7 @@
 
 This project analyzes Amazon sales data using Python and Pandas.
 
-The objective is to clean sales data, analyze business performance, generate reports, and create visualizations.
+The objective is to clean raw sales records, generate business insights, create visualizations, and automate reporting.
 
 ## Technologies Used
 
@@ -19,16 +19,24 @@ The objective is to clean sales data, analyze business performance, generate rep
 ## Dataset Information
 
 * Dataset: Amazon Sale Report
-* Records: 128,975+
-* Analysis Type: Sales Analytics
+* Records: 128,000+
 * Industry: E-Commerce
+* Analysis Type: Sales Analytics
 
 ## Business Questions Answered
 
-* Which categories generate the highest revenue?
+* Which product categories generate the highest revenue?
 * Which states contribute the most sales?
 * What is the order status distribution?
-* How can business performance be monitored?
+* Which business areas need improvement?
+
+## Results
+
+* Analyzed 128,000+ Amazon sales records
+* Identified top-performing product categories
+* Analyzed sales distribution across states
+* Examined order fulfillment status patterns
+* Generated automated Excel reports
 
 ## Visualizations
 
@@ -55,11 +63,26 @@ The objective is to clean sales data, analyze business performance, generate rep
 * Data Visualization
 * Business Reporting
 * Python Automation
+* Git Version Control
 
 ## Future Improvements
 
 * Monthly Sales Trend Analysis
-* Customer Segmentation
 * SQL Integration
 * Power BI Dashboard
+* Customer Segmentation
 * Sales Forecasting
+
+## How to Run
+
+1. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Run the project
+
+```bash
+python sales_analysis.py
+```
